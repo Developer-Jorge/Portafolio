@@ -1,0 +1,45 @@
+*{
+color:white;
+background-color: black;
+}
+header{
+text-align: center;   
+font-size: 30px;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;  
+}
+nav li{
+    display: inline;
+    margin:0px 25px 0px 0px;
+}
+nav li a{
+border: solid white;
+padding: 5px 10px;
+text-decoration: none;
+}
+section{
+    font-size: 20px;
+}
+form{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+aside{
+    text-align: right;
+}
+aside li a{
+    text-decoration: none;
+}
+aside ul{
+    list-style-type: none;
+
+}
+.loro{
+ float:left
+}
