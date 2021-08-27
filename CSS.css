@@ -1,23 +1,23 @@
 *{
 color:white;
-background-color: black;
+background-color: rgb(0, 0, 88);
 }
 header{
 text-align: center;   
-font-size: 30px;
+font-size: 20px;
 }
 nav{
     text-align: center;
 }
-nav ul{
+header ul{
+    text-align: right;
     list-style-type: none;  
 }
-nav li{
+header ul li{
     display: inline;
-    margin:0px 25px 0px 0px;
+    margin:0px 5px 0px 0px;
 }
-nav li a{
-border: solid white;
+header ul li a{
 padding: 5px 10px;
 text-decoration: none;
 }
@@ -27,19 +27,21 @@ section{
 form{
     text-align: center;
 }
-footer{
+footer ul{
     text-align: center;
+    list-style-type: none;  
 }
-aside{
-    text-align: right;
+footer ul li{
+    display: inline;
+    margin:0px 20px 0px 0px;
 }
-aside li a{
+footer ul li a{
+    padding: 5px 10px;
     text-decoration: none;
 }
-aside ul{
-    list-style-type: none;
-
-}
-.loro{
- float:left
+.imgRedonda{
+    width: 200px;
+    height: 200px;
+    border-radius:150px;
+    border: 5px solid blue;
 }
